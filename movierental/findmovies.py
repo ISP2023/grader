@@ -50,7 +50,6 @@ print(movie.year)
 prompt("Get Mulan,2020.  Should return 2020 version.")
 movie = catalog1.get_movie("Mulan", 2020)
 print("Result:", movie)
-print(movie.year)
 
 prompt("Get Oppenheimer")
 movie = catalog1.get_movie("Oppenheimer")
